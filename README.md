@@ -2,9 +2,7 @@
 
 Caffe implementation of SGDR from "SGDR: Stochastic Gradient Descent with Restarts" by Ilya Loshchilov and Frank Hutter (http://arxiv.org/abs/1608.03983)
 
-$$
-\eta_t = \eta_{min}^i + \frac 12 (\eta_{max}^i - \eta_{min}^i)(1 + cos(\frac {T_{cur}} {T_i} \pi)) 
-$$
+![lr_cosine_annealing](img/lr_cosine_annealing.png)
 
 
 ## Usage
